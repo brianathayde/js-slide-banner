@@ -1,0 +1,29 @@
+ 
+#img{
+    width: 60vw;
+    height: 33vw;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+#allimgs{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    position: absolute; 
+    transition: transform 1s;
+}
+
+.coffee{
+    width: 60vw;
+    height: 33vw;
+}
+
+.bts-radios{
+    position: relative;
+    top: -20px;
+    left: 46vw;
+    width: 16vw;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Banner</title>
+        <link rel='stylesheet' type='text/css' media='screen' href='slide-banner.css'>
+    </head>
+    <body>
+        <div id="img" onmousedown="startmoving(event)" onmouseup="stopmoving(event)" onmouseleave="stopmoving(event)" onmousemove="slide(event)">
+            <div id="allimgs"> 
+                <img class="coffee" src="cafe01.jpg" alt="" draggable="false">   
+                <img class="coffee" src="cafe02.jpg" alt="" draggable="false">
+                <img class="coffee" src="cafe03.jpg" alt="" draggable="false">
+                <img class="coffee" src="cafe04.jpg" alt="" draggable="false">
+            </div>           
+        </div> 
+        <div class="bts-radios">
+            <input id="bt-radio00" onclick="photo00()" type="radio" checked="checked" name="radio">
+            <input id="bt-radio01" onclick="photo1()" type="radio" name="radio">
+            <input id="bt-radio02" onclick="photo2()" type="radio" name="radio">
+            <input id="bt-radio03" onclick="photo3()" type="radio" name="radio">
+        </div>
+    </body>
+</html>
